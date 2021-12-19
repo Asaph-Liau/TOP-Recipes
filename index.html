@@ -40,14 +40,25 @@
         text-transform: uppercase;
         color: #ffe066;
       }
+
+      .Recipe--list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .Recipe--list__items {
+        list-style: none;
+      }
     </style>
   </head>
   <body>
     <div class="Header--box">
       <h1 class="Header--title">Odin Recipes</h1>
     </div>
-    <div>
-      <ul>
+    <div class="Recipe--list">
+      <ul class="Recipe--list__items">
         <li>
           <a href="recipes/chinese-watercress-soup.html"
             >Chinese Watercress Soup</a
