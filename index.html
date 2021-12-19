@@ -51,6 +51,12 @@
       .Recipe--list__items {
         list-style: none;
       }
+
+      .Recipe--list__links:link,
+      .Recipe--list__links:visited {
+        text-decoration: none;
+        color: #ffec99;
+      }
     </style>
   </head>
   <body>
@@ -60,7 +66,9 @@
     <div class="Recipe--list">
       <ul class="Recipe--list__items">
         <li>
-          <a href="recipes/chinese-watercress-soup.html"
+          <a
+            class="Recipe--list__links"
+            href="recipes/chinese-watercress-soup.html"
             >Chinese Watercress Soup</a
           >
         </li>
