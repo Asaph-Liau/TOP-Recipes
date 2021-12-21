@@ -53,6 +53,7 @@
 
       .Recipe--desc__box {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
       }
@@ -61,23 +62,64 @@
         width: 500px;
         color: #ffe066;
       }
+
+      .Color {
+        color: #ffe066;
+      }
+
+      .mg-bttm {
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
     <div class="Recipe--header">
       <h1 class="Recipe--title">Chinese Watercress Soup</h1>
     </div>
-    <div class="img--box">
+    <div class="img--box mg-bttm">
       <img src="/img/Watercress-soup.webp" alt="Watercress soup" />
     </div>
-    <div class="Recipe--desc__box">
-      <p class="Recipe--desc">
+    <div class="Recipe--desc__box mg-bttm">
+      <p class="Recipe--desc mg-bttm">
         Watercress is filled with vitamin A, chlorophyll, sulphur, and calcium.
         Traditional Chinese Medicine states that this vegetable helps dissolves
         yellowish phlegm due to heat condition of the lungs (source: A Tradition
         Of Soup by Teresa. M. Chen). Watercress is also diuretic, clearing
         facial blemishes and improves night vision.
       </p>
+      <h4 class="Color">Ingredients</h4>
+      <ul class="mg-bttm">
+        <li class="Color">5 L chicken and pork stock</li>
+        <li class="Color">2 bundles watercress</li>
+        <li class="Color">3 dehydrated shiitake mushrooms</li>
+        <li class="Color">2 dried honey dates</li>
+        <li class="Color">2 carrots, peeled and sliced</li>
+        <li class="Color">3 dried jujubes</li>
+        <li class="Color">1 tsp salt, or to taste</li>
+        <li class="Color">1 tbsp chicken bouillon powder</li>
+      </ul>
+      <h4 class="Color">Instructions</h4>
+      <ol class="mg-bttm">
+        <li class="Color">
+          Bring the chicken and pork stock to a boil and add the chicken
+          bouillon powder along with the salt.
+        </li>
+        <li class="Color">
+          Throw in the carrots, mushrooms, honey dates and jujubes and let it
+          simmer for 15 minutes.
+        </li>
+        <li class="Color">
+          When the carrots have softened, bring the broth up to a boil and add
+          the watercress in.
+        </li>
+        <li class="Color">
+          Keep the soup on a medium to low heat so that it gently simmers for
+          another 20 minutes.
+        </li>
+        <li class="Color">
+          To serve, enjoy as is or pour over your leftover rice!
+        </li>
+      </ol>
     </div>
   </body>
 </html>
